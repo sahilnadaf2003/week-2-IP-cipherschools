@@ -1,0 +1,74 @@
+/* This is paragraph styling  hex color,rgb,rgba,hsl,hsla */
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #2f8aa9;
+}
+
+
+/* type element/tag selector */
+strong{
+    font-size: 20px;
+}
+
+
+/* class selector */
+.heading{
+    background-color: #000;
+}
+
+
+/* id selector */
+#one{
+    font-size: 30px;
+}
+
+
+/* descendent selector */
+.div p{
+    font-size: 50px;
+}
+
+
+/*combining  selector */
+.container{
+    font-style: italic;
+}
+
+
+
+p{
+    color:inherit;
+    background-color: #f61067;
+    /* absolute units */
+    width: 20px;
+    /* relative units */
+    width: 70vw;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
+
+
+div{
+    transform:rotate(0deg);
+    width:calc(100%-20px);
+    height:100vh;
+    background-image:url("https://th.bing.com/th/id/OIP.62YqaqvB6sXEQz6vzDiaAgHaFt?w=217&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")
+}
+/* grouping selector */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}

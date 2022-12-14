@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(/assets/1.jpg);
+    background-size:180px;
+    background-repeat: no-repeat;
+    background-position-x:-10% ;
+    background-position-y:20px ; */
+    background: url("/assets/1.jpg") no-repeat 0% 80px /200px,
+    url("/assets/2.jpg") no-repeat center/100vw 138vh;
+   
+}
+
+article{
+    background-color: rgb(18,161,18);
+    width: auto;
+    border-radius: 8px;
+    padding: 10px;
+    float: right;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+article h1{
+    font-size: 15px;
+    color:yellow;
+}
+
+article p{
+    font-size: 18px;
+}

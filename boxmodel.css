@@ -1,0 +1,55 @@
+.box div{
+    display: inline-block;
+    background-color: steelblue;
+}
+
+
+.box span{
+    display: block;
+}
+
+.box{
+    background-color: tan;
+    width: 400px;
+    height: 300px;
+    /* padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px; */
+
+    /* same all the sides */
+    padding: 10px;
+    /* top,bottom and right,left */
+    padding: 20px 10px;
+    /* top and right,left and bottom */
+    padding: 20px 50px 20px;
+    /* top,right,bottom,left */
+    padding: 20px 50px 20px 50px;
+
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #333; */
+
+    border: 2px solid #333;
+
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom:30px;
+    margin-right: 40px; */
+
+    /* same all the sides */
+    margin: 10px;
+
+    /* top,bottom and right,left */
+    margin: 20px 10px;
+
+    /* top and right,left and bottom */
+    margin: 20px 50px 20px;
+
+    /* top,right,bottom,left */
+    margin: 20px 50px 20px 50px;
+
+    /* centred block */
+    margin: auto;
+
+}
